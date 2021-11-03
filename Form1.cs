@@ -32,5 +32,19 @@ namespace AutoGeneratingPage
             Form1 newForm = new Form1();
             newForm.Show();
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

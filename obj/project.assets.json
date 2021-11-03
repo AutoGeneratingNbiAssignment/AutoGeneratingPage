@@ -8,19 +8,19 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {}
+    "C:\\Users\\kevin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\Source\\Repos\\AutoGeneratingPage\\AutoGeneratingPage.csproj",
+      "projectUniqueName": "C:\\Users\\kevin\\Documents\\Avancerad programmering 1102-0217\\AutoGeneratingPage\\AutoGeneratingPage\\AutoGeneratingPage.csproj",
       "projectName": "AutoGeneratingPage",
-      "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\AutoGeneratingPage\\AutoGeneratingPage.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\Source\\Repos\\AutoGeneratingPage\\obj\\",
+      "projectPath": "C:\\Users\\kevin\\Documents\\Avancerad programmering 1102-0217\\AutoGeneratingPage\\AutoGeneratingPage\\AutoGeneratingPage.csproj",
+      "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kevin\\Documents\\Avancerad programmering 1102-0217\\AutoGeneratingPage\\AutoGeneratingPage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
