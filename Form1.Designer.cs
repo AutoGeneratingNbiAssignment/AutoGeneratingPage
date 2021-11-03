@@ -37,6 +37,8 @@ namespace AutoGeneratingPage
             this.backgroundColorLabel = new System.Windows.Forms.Label();
             this.imageLabel = new System.Windows.Forms.Label();
             this.browseImageButton = new System.Windows.Forms.Button();
+            this.fontStyleLabel = new System.Windows.Forms.Label();
+            this.fontStyleMenu = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // sectionNameInputBox
@@ -76,7 +78,7 @@ namespace AutoGeneratingPage
             // backgroundColorButton
             // 
             this.backgroundColorButton.BackColor = System.Drawing.Color.White;
-            this.backgroundColorButton.Location = new System.Drawing.Point(187, 76);
+            this.backgroundColorButton.Location = new System.Drawing.Point(189, 96);
             this.backgroundColorButton.Name = "backgroundColorButton";
             this.backgroundColorButton.Size = new System.Drawing.Size(34, 34);
             this.backgroundColorButton.TabIndex = 5;
@@ -86,7 +88,7 @@ namespace AutoGeneratingPage
             // backgroundColorLabel
             // 
             this.backgroundColorLabel.AutoSize = true;
-            this.backgroundColorLabel.Location = new System.Drawing.Point(21, 81);
+            this.backgroundColorLabel.Location = new System.Drawing.Point(23, 101);
             this.backgroundColorLabel.Name = "backgroundColorLabel";
             this.backgroundColorLabel.Size = new System.Drawing.Size(155, 25);
             this.backgroundColorLabel.TabIndex = 6;
@@ -96,7 +98,7 @@ namespace AutoGeneratingPage
             // imageLabel
             // 
             this.imageLabel.AutoSize = true;
-            this.imageLabel.Location = new System.Drawing.Point(234, 81);
+            this.imageLabel.Location = new System.Drawing.Point(236, 101);
             this.imageLabel.Name = "imageLabel";
             this.imageLabel.Size = new System.Drawing.Size(62, 25);
             this.imageLabel.TabIndex = 8;
@@ -106,7 +108,7 @@ namespace AutoGeneratingPage
             // browseImageButton
             // 
             this.browseImageButton.BackColor = System.Drawing.Color.Gainsboro;
-            this.browseImageButton.Location = new System.Drawing.Point(306, 76);
+            this.browseImageButton.Location = new System.Drawing.Point(308, 96);
             this.browseImageButton.Name = "browseImageButton";
             this.browseImageButton.Size = new System.Drawing.Size(78, 34);
             this.browseImageButton.TabIndex = 7;
@@ -114,11 +116,31 @@ namespace AutoGeneratingPage
             this.browseImageButton.UseVisualStyleBackColor = false;
             this.browseImageButton.Click += new System.EventHandler(this.browseImageButton_Click);
             // 
+            // fontStyleLabel
+            // 
+            this.fontStyleLabel.AutoSize = true;
+            this.fontStyleLabel.Location = new System.Drawing.Point(417, 69);
+            this.fontStyleLabel.Name = "fontStyleLabel";
+            this.fontStyleLabel.Size = new System.Drawing.Size(90, 25);
+            this.fontStyleLabel.TabIndex = 9;
+            this.fontStyleLabel.Text = "Font Style";
+            this.fontStyleLabel.Click += new System.EventHandler(this.fontStyleLabel_Click);
+            // 
+            // fontStyleMenu
+            // 
+            this.fontStyleMenu.FormattingEnabled = true;
+            this.fontStyleMenu.Location = new System.Drawing.Point(417, 97);
+            this.fontStyleMenu.Name = "fontStyleMenu";
+            this.fontStyleMenu.Size = new System.Drawing.Size(182, 33);
+            this.fontStyleMenu.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(968, 450);
+            this.Controls.Add(this.fontStyleMenu);
+            this.Controls.Add(this.fontStyleLabel);
             this.Controls.Add(this.imageLabel);
             this.Controls.Add(this.browseImageButton);
             this.Controls.Add(this.backgroundColorLabel);
@@ -144,6 +166,8 @@ namespace AutoGeneratingPage
         private System.Windows.Forms.Label backgroundColorLabel;
         private System.Windows.Forms.Label imageLabel;
         private System.Windows.Forms.Button browseImageButton;
+        private System.Windows.Forms.Label fontStyleLabel;
+        private System.Windows.Forms.ComboBox fontStyleMenu;
     }
 }
 
