@@ -1,0 +1,39 @@
+<<<<<<< HEAD
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.exe
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.deps.json
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.runtimeconfig.json
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.runtimeconfig.dev.json
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.dll
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\bin\Debug\net5.0-windows\ref\AutoGeneratingPage.dll
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.pdb
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.csproj.AssemblyReference.cache
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.Form1.resources
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.csproj.GenerateResource.cache
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.AssemblyInfoInputs.cache
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.AssemblyInfo.cs
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.dll
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\ref\AutoGeneratingPage.dll
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.pdb
+C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.genruntimeconfig.cache
+=======
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.exe
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.deps.json
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.runtimeconfig.json
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.runtimeconfig.dev.json
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.dll
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\bin\Debug\net5.0-windows\ref\AutoGeneratingPage.dll
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.pdb
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.csprojAssemblyReference.cache
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.Form1.resources
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.csproj.GenerateResource.cache
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.AssemblyInfoInputs.cache
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.AssemblyInfo.cs
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.dll
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\ref\AutoGeneratingPage.dll
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.pdb
+C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.genruntimeconfig.cache
+>>>>>>> dev
