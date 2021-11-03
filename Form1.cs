@@ -53,14 +53,25 @@ namespace AutoGeneratingPage
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void fontSizeLabel_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void fontSizeInputBox_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void fontColorLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fontColorPaletteButton_Click(object sender, EventArgs e)
+        {
+            var fontColorPalette = new ColorDialog();
+            fontColorPalette.ShowDialog();
         }
     }
 }

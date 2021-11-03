@@ -39,6 +39,10 @@ namespace AutoGeneratingPage
             this.browseImageButton = new System.Windows.Forms.Button();
             this.fontStyleLabel = new System.Windows.Forms.Label();
             this.fontStyleMenu = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.fontSizeInputBox = new System.Windows.Forms.TextBox();
+            this.fontColorLabel = new System.Windows.Forms.Label();
+            this.fontColorPaletteButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // sectionNameInputBox
@@ -134,11 +138,51 @@ namespace AutoGeneratingPage
             this.fontStyleMenu.Size = new System.Drawing.Size(182, 33);
             this.fontStyleMenu.TabIndex = 10;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(605, 69);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(84, 25);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Font Size";
+            // 
+            // fontSizeInputBox
+            // 
+            this.fontSizeInputBox.Location = new System.Drawing.Point(605, 98);
+            this.fontSizeInputBox.Name = "fontSizeInputBox";
+            this.fontSizeInputBox.Size = new System.Drawing.Size(100, 31);
+            this.fontSizeInputBox.TabIndex = 11;
+            // 
+            // fontColorLabel
+            // 
+            this.fontColorLabel.AutoSize = true;
+            this.fontColorLabel.Location = new System.Drawing.Point(724, 101);
+            this.fontColorLabel.Name = "fontColorLabel";
+            this.fontColorLabel.Size = new System.Drawing.Size(96, 25);
+            this.fontColorLabel.TabIndex = 14;
+            this.fontColorLabel.Text = "Font Color";
+            this.fontColorLabel.Click += new System.EventHandler(this.fontColorLabel_Click);
+            // 
+            // fontColorPaletteButton
+            // 
+            this.fontColorPaletteButton.BackColor = System.Drawing.Color.White;
+            this.fontColorPaletteButton.Location = new System.Drawing.Point(826, 98);
+            this.fontColorPaletteButton.Name = "fontColorPaletteButton";
+            this.fontColorPaletteButton.Size = new System.Drawing.Size(34, 34);
+            this.fontColorPaletteButton.TabIndex = 13;
+            this.fontColorPaletteButton.UseVisualStyleBackColor = false;
+            this.fontColorPaletteButton.Click += new System.EventHandler(this.fontColorPaletteButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(968, 450);
+            this.Controls.Add(this.fontColorLabel);
+            this.Controls.Add(this.fontColorPaletteButton);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.fontSizeInputBox);
             this.Controls.Add(this.fontStyleMenu);
             this.Controls.Add(this.fontStyleLabel);
             this.Controls.Add(this.imageLabel);
@@ -168,6 +212,10 @@ namespace AutoGeneratingPage
         private System.Windows.Forms.Button browseImageButton;
         private System.Windows.Forms.Label fontStyleLabel;
         private System.Windows.Forms.ComboBox fontStyleMenu;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox fontSizeInputBox;
+        private System.Windows.Forms.Label fontColorLabel;
+        private System.Windows.Forms.Button fontColorPaletteButton;
     }
 }
 
