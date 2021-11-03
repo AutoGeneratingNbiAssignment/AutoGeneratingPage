@@ -31,7 +31,7 @@ namespace AutoGeneratingPage
         {
             this.sectionNameInputBox = new System.Windows.Forms.TextBox();
             this.sectionNameLabel = new System.Windows.Forms.Label();
-            this.TitleLable = new System.Windows.Forms.Label();
+            this.sectionTitleLable = new System.Windows.Forms.Label();
             this.sectionTitleInputBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -52,15 +52,15 @@ namespace AutoGeneratingPage
             this.sectionNameLabel.TabIndex = 1;
             this.sectionNameLabel.Text = "Section Name";
             // 
-            // TitleLable
+            // sectionTitleLable
             // 
-            this.TitleLable.AutoSize = true;
-            this.TitleLable.Location = new System.Drawing.Point(26, 9);
-            this.TitleLable.Name = "TitleLable";
-            this.TitleLable.Size = new System.Drawing.Size(107, 25);
-            this.TitleLable.TabIndex = 3;
-            this.TitleLable.Text = "Section Title";
-            this.TitleLable.Click += new System.EventHandler(this.label2_Click);
+            this.sectionTitleLable.AutoSize = true;
+            this.sectionTitleLable.Location = new System.Drawing.Point(26, 9);
+            this.sectionTitleLable.Name = "sectionTitleLable";
+            this.sectionTitleLable.Size = new System.Drawing.Size(107, 25);
+            this.sectionTitleLable.TabIndex = 3;
+            this.sectionTitleLable.Text = "Section Title";
+            this.sectionTitleLable.Click += new System.EventHandler(this.label2_Click);
             // 
             // sectionTitleInputBox
             // 
@@ -74,7 +74,7 @@ namespace AutoGeneratingPage
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.TitleLable);
+            this.Controls.Add(this.sectionTitleLable);
             this.Controls.Add(this.sectionTitleInputBox);
             this.Controls.Add(this.sectionNameLabel);
             this.Controls.Add(this.sectionNameInputBox);
@@ -89,7 +89,7 @@ namespace AutoGeneratingPage
 
         private System.Windows.Forms.TextBox sectionNameInputBox;
         private System.Windows.Forms.Label sectionNameLabel;
-        private System.Windows.Forms.Label TitleLable;
+        private System.Windows.Forms.Label sectionTitleLable;
         private System.Windows.Forms.TextBox sectionTitleInputBox;
     }
 }
