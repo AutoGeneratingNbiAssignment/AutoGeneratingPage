@@ -17,6 +17,21 @@ namespace AutoGeneratingPage
             InitializeComponent();
         }
 
+        private void btnPreview_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPrevious_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            Form1 newForm = new Form1();
+            newForm.Show();
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
 
