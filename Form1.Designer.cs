@@ -29,29 +29,28 @@ namespace AutoGeneratingPage
         /// </summary>
         private void InitializeComponent()
         {
-            this.sectionNameBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.sectionNameInputBox = new System.Windows.Forms.TextBox();
+            this.sectionNameLabel = new System.Windows.Forms.Label();
             this.TitleLable = new System.Windows.Forms.Label();
             this.sectionTitleInputBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // sectionNameBox
+            // sectionNameInputBox
             // 
-            this.sectionNameBox.Location = new System.Drawing.Point(234, 36);
-            this.sectionNameBox.Name = "sectionNameBox";
-            this.sectionNameBox.Size = new System.Drawing.Size(150, 31);
-            this.sectionNameBox.TabIndex = 0;
-            this.sectionNameBox.Text = "SectionName ";
-            this.sectionNameBox.TextChanged += new System.EventHandler(this.sectionNameBox_TextChanged);
+            this.sectionNameInputBox.Location = new System.Drawing.Point(234, 36);
+            this.sectionNameInputBox.Name = "sectionNameInputBox";
+            this.sectionNameInputBox.Size = new System.Drawing.Size(150, 31);
+            this.sectionNameInputBox.TabIndex = 0;
+            this.sectionNameInputBox.TextChanged += new System.EventHandler(this.sectionNameBox_TextChanged);
             // 
-            // label1
+            // sectionNameLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(235, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 25);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Name";
+            this.sectionNameLabel.AutoSize = true;
+            this.sectionNameLabel.Location = new System.Drawing.Point(235, 8);
+            this.sectionNameLabel.Name = "sectionNameLabel";
+            this.sectionNameLabel.Size = new System.Drawing.Size(122, 25);
+            this.sectionNameLabel.TabIndex = 1;
+            this.sectionNameLabel.Text = "Section Name";
             // 
             // TitleLable
             // 
@@ -77,8 +76,8 @@ namespace AutoGeneratingPage
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.TitleLable);
             this.Controls.Add(this.sectionTitleInputBox);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.sectionNameBox);
+            this.Controls.Add(this.sectionNameLabel);
+            this.Controls.Add(this.sectionNameInputBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -88,8 +87,8 @@ namespace AutoGeneratingPage
 
         #endregion
 
-        private System.Windows.Forms.TextBox sectionNameBox;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox sectionNameInputBox;
+        private System.Windows.Forms.Label sectionNameLabel;
         private System.Windows.Forms.Label TitleLable;
         private System.Windows.Forms.TextBox sectionTitleInputBox;
     }
