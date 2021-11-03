@@ -39,6 +39,9 @@ namespace AutoGeneratingPage
             this.ctaBtnsLabel = new System.Windows.Forms.Label();
             this.txtWithImagePos = new System.Windows.Forms.Label();
             this.imgText = new System.Windows.Forms.TextBox();
+            this.pictureBoxMiddle = new System.Windows.Forms.PictureBox();
+            this.browsePicLeftOrRight = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMiddle)).BeginInit();
             this.SuspendLayout();
             // 
             // bannerCheckBox
@@ -132,11 +135,31 @@ namespace AutoGeneratingPage
             this.imgText.TabIndex = 12;
             this.imgText.Text = "Write your text here";
             // 
+            // pictureBoxMiddle
+            // 
+            this.pictureBoxMiddle.Location = new System.Drawing.Point(688, 193);
+            this.pictureBoxMiddle.Name = "pictureBoxMiddle";
+            this.pictureBoxMiddle.Size = new System.Drawing.Size(100, 88);
+            this.pictureBoxMiddle.TabIndex = 13;
+            this.pictureBoxMiddle.TabStop = false;
+            // 
+            // button1
+            // 
+            this.browsePicLeftOrRight.ForeColor = System.Drawing.Color.Blue;
+            this.browsePicLeftOrRight.Location = new System.Drawing.Point(701, 287);
+            this.browsePicLeftOrRight.Name = "button1";
+            this.browsePicLeftOrRight.Size = new System.Drawing.Size(75, 23);
+            this.browsePicLeftOrRight.TabIndex = 14;
+            this.browsePicLeftOrRight.Text = "Browse";
+            this.browsePicLeftOrRight.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.browsePicLeftOrRight);
+            this.Controls.Add(this.pictureBoxMiddle);
             this.Controls.Add(this.imgText);
             this.Controls.Add(this.txtWithImagePos);
             this.Controls.Add(this.ctaBtnsLabel);
@@ -150,6 +173,7 @@ namespace AutoGeneratingPage
             this.Name = "Form1";
             this.Text = "Page Generator";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMiddle)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,6 +191,8 @@ namespace AutoGeneratingPage
         private System.Windows.Forms.Label ctaBtnsLabel;
         private System.Windows.Forms.Label txtWithImagePos;
         private System.Windows.Forms.TextBox imgText;
+        private System.Windows.Forms.PictureBox pictureBoxMiddle;
+        private System.Windows.Forms.Button browsePicLeftOrRight;
     }
 }
 
