@@ -46,5 +46,61 @@ namespace AutoGeneratingPage
         {
 
         }
+        private void sectionNameBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backgroundColorButton_Click(object sender, EventArgs e)
+        {
+            var backgroundColorPalette = new ColorDialog();
+            backgroundColorPalette.ShowDialog();
+        }
+
+        private void backgroundColorLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void imageLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void browseImageButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fontStyleLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fontSizeLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fontSizeInputBox_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fontColorLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fontColorPaletteButton_Click(object sender, EventArgs e)
+        {
+            var fontColorPalette = new ColorDialog();
+            fontColorPalette.ShowDialog();
+        }
     }
 }
