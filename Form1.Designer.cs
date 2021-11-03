@@ -123,7 +123,7 @@ namespace AutoGeneratingPage
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.dropDownTxtPos);
             this.Controls.Add(this.bannerAddPicture);
             this.Controls.Add(this.ctaThrdBtnText);
             this.Controls.Add(this.ctaScndBtnText);
