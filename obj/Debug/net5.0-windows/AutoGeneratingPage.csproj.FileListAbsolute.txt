@@ -18,7 +18,6 @@ C:\Users\Vivi\dev\school\AutoGeneratingPage\obj\Debug\net5.0-windows\ref\AutoGen
 C:\Users\Vivi\dev\school\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.pdb
 C:\Users\Vivi\dev\school\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.genruntimeconfig.cache
 =======
-<<<<<<< HEAD
 C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.exe
 C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.deps.json
 C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.runtimeconfig.json
@@ -37,7 +36,6 @@ C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\Au
 C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\ref\AutoGeneratingPage.dll
 C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.pdb
 C:\Users\kevin\Documents\Avancerad programmering 1102-0217\AutoGeneratingPage\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.genruntimeconfig.cache
-=======
 C:\Users\Daniel\Source\Repos\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.exe
 C:\Users\Daniel\Source\Repos\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.deps.json
 C:\Users\Daniel\Source\Repos\AutoGeneratingPage\bin\Debug\net5.0-windows\AutoGeneratingPage.runtimeconfig.json
@@ -56,5 +54,4 @@ C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGen
 C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\ref\AutoGeneratingPage.dll
 C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.pdb
 C:\Users\Daniel\Source\Repos\AutoGeneratingPage\obj\Debug\net5.0-windows\AutoGeneratingPage.genruntimeconfig.cache
->>>>>>> dev
 >>>>>>> dev
