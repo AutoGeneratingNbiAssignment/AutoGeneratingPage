@@ -17,5 +17,9 @@ namespace AutoGeneratingPage
             InitializeComponent();
         }
 
+        private void sectionNameBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
