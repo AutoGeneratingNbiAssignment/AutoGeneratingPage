@@ -26,5 +26,16 @@ namespace AutoGeneratingPage
         {
 
         }
+
+        private void backgroundColorButton_Click(object sender, EventArgs e)
+        {
+            var backgroundColorPalette = new ColorDialog();
+            backgroundColorPalette.ShowDialog();
+        }
+
+        private void backgroundColorLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

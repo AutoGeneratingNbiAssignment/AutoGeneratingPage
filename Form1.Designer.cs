@@ -33,6 +33,8 @@ namespace AutoGeneratingPage
             this.sectionNameLabel = new System.Windows.Forms.Label();
             this.sectionTitleLable = new System.Windows.Forms.Label();
             this.sectionTitleInputBox = new System.Windows.Forms.TextBox();
+            this.backgroundColorButton = new System.Windows.Forms.Button();
+            this.backgroundColorLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // sectionNameInputBox
@@ -69,11 +71,33 @@ namespace AutoGeneratingPage
             this.sectionTitleInputBox.Size = new System.Drawing.Size(150, 31);
             this.sectionTitleInputBox.TabIndex = 2;
             // 
+            // backgroundColorButton
+            // 
+            this.backgroundColorButton.BackColor = System.Drawing.Color.White;
+            this.backgroundColorButton.Location = new System.Drawing.Point(187, 76);
+            this.backgroundColorButton.Name = "backgroundColorButton";
+            this.backgroundColorButton.Size = new System.Drawing.Size(34, 34);
+            this.backgroundColorButton.TabIndex = 5;
+            this.backgroundColorButton.UseVisualStyleBackColor = false;
+            this.backgroundColorButton.Click += new System.EventHandler(this.backgroundColorButton_Click);
+            // 
+            // backgroundColorLabel
+            // 
+            this.backgroundColorLabel.AutoSize = true;
+            this.backgroundColorLabel.Location = new System.Drawing.Point(26, 81);
+            this.backgroundColorLabel.Name = "backgroundColorLabel";
+            this.backgroundColorLabel.Size = new System.Drawing.Size(155, 25);
+            this.backgroundColorLabel.TabIndex = 6;
+            this.backgroundColorLabel.Text = "Background Color";
+            this.backgroundColorLabel.Click += new System.EventHandler(this.backgroundColorLabel_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.backgroundColorLabel);
+            this.Controls.Add(this.backgroundColorButton);
             this.Controls.Add(this.sectionTitleLable);
             this.Controls.Add(this.sectionTitleInputBox);
             this.Controls.Add(this.sectionNameLabel);
@@ -91,6 +115,8 @@ namespace AutoGeneratingPage
         private System.Windows.Forms.Label sectionNameLabel;
         private System.Windows.Forms.Label sectionTitleLable;
         private System.Windows.Forms.TextBox sectionTitleInputBox;
+        private System.Windows.Forms.Button backgroundColorButton;
+        private System.Windows.Forms.Label backgroundColorLabel;
     }
 }
 
