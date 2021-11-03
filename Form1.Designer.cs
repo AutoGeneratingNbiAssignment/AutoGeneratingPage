@@ -35,6 +35,8 @@ namespace AutoGeneratingPage
             this.sectionTitleInputBox = new System.Windows.Forms.TextBox();
             this.backgroundColorButton = new System.Windows.Forms.Button();
             this.backgroundColorLabel = new System.Windows.Forms.Label();
+            this.imageLabel = new System.Windows.Forms.Label();
+            this.browseImageButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // sectionNameInputBox
@@ -84,18 +86,41 @@ namespace AutoGeneratingPage
             // backgroundColorLabel
             // 
             this.backgroundColorLabel.AutoSize = true;
-            this.backgroundColorLabel.Location = new System.Drawing.Point(26, 81);
+            this.backgroundColorLabel.Location = new System.Drawing.Point(21, 81);
             this.backgroundColorLabel.Name = "backgroundColorLabel";
             this.backgroundColorLabel.Size = new System.Drawing.Size(155, 25);
             this.backgroundColorLabel.TabIndex = 6;
             this.backgroundColorLabel.Text = "Background Color";
             this.backgroundColorLabel.Click += new System.EventHandler(this.backgroundColorLabel_Click);
             // 
+            // imageLabel
+            // 
+            this.imageLabel.AutoSize = true;
+            this.imageLabel.Location = new System.Drawing.Point(234, 81);
+            this.imageLabel.Name = "imageLabel";
+            this.imageLabel.Size = new System.Drawing.Size(62, 25);
+            this.imageLabel.TabIndex = 8;
+            this.imageLabel.Text = "Image";
+            this.imageLabel.Click += new System.EventHandler(this.imageLabel_Click);
+            // 
+            // browseImageButton
+            // 
+            this.browseImageButton.BackColor = System.Drawing.Color.Gainsboro;
+            this.browseImageButton.Location = new System.Drawing.Point(306, 76);
+            this.browseImageButton.Name = "browseImageButton";
+            this.browseImageButton.Size = new System.Drawing.Size(78, 34);
+            this.browseImageButton.TabIndex = 7;
+            this.browseImageButton.Text = "Browse";
+            this.browseImageButton.UseVisualStyleBackColor = false;
+            this.browseImageButton.Click += new System.EventHandler(this.browseImageButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.imageLabel);
+            this.Controls.Add(this.browseImageButton);
             this.Controls.Add(this.backgroundColorLabel);
             this.Controls.Add(this.backgroundColorButton);
             this.Controls.Add(this.sectionTitleLable);
@@ -117,6 +142,8 @@ namespace AutoGeneratingPage
         private System.Windows.Forms.TextBox sectionTitleInputBox;
         private System.Windows.Forms.Button backgroundColorButton;
         private System.Windows.Forms.Label backgroundColorLabel;
+        private System.Windows.Forms.Label imageLabel;
+        private System.Windows.Forms.Button browseImageButton;
     }
 }
 

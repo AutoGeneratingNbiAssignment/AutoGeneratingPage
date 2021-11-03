@@ -37,5 +37,15 @@ namespace AutoGeneratingPage
         {
 
         }
+
+        private void imageLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void browseImageButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
