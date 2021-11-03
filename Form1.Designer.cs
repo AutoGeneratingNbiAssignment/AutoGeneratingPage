@@ -31,6 +31,8 @@ namespace AutoGeneratingPage
         {
             this.sectionNameBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.TitleLable = new System.Windows.Forms.Label();
+            this.sectionTitleInputBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // sectionNameBox
@@ -51,11 +53,30 @@ namespace AutoGeneratingPage
             this.label1.TabIndex = 1;
             this.label1.Text = "Name";
             // 
+            // TitleLable
+            // 
+            this.TitleLable.AutoSize = true;
+            this.TitleLable.Location = new System.Drawing.Point(26, 9);
+            this.TitleLable.Name = "TitleLable";
+            this.TitleLable.Size = new System.Drawing.Size(107, 25);
+            this.TitleLable.TabIndex = 3;
+            this.TitleLable.Text = "Section Title";
+            this.TitleLable.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // sectionTitleInputBox
+            // 
+            this.sectionTitleInputBox.Location = new System.Drawing.Point(26, 36);
+            this.sectionTitleInputBox.Name = "sectionTitleInputBox";
+            this.sectionTitleInputBox.Size = new System.Drawing.Size(150, 31);
+            this.sectionTitleInputBox.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.TitleLable);
+            this.Controls.Add(this.sectionTitleInputBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.sectionNameBox);
             this.Name = "Form1";
@@ -69,6 +90,8 @@ namespace AutoGeneratingPage
 
         private System.Windows.Forms.TextBox sectionNameBox;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label TitleLable;
+        private System.Windows.Forms.TextBox sectionTitleInputBox;
     }
 }
 
