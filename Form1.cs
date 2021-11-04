@@ -102,5 +102,10 @@ namespace AutoGeneratingPage
             var fontColorPalette = new ColorDialog();
             fontColorPalette.ShowDialog();
         }
+
+        private void browsePicLeftOrRight_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

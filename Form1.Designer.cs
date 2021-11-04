@@ -43,13 +43,32 @@ namespace AutoGeneratingPage
             this.fontSizeInputBox = new System.Windows.Forms.TextBox();
             this.fontColorLabel = new System.Windows.Forms.Label();
             this.fontColorPaletteButton = new System.Windows.Forms.Button();
+            this.btnWithLink = new System.Windows.Forms.Button();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.btnPrevious = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnPreview = new System.Windows.Forms.Button();
+            this.checkBoxBtnLink = new System.Windows.Forms.CheckBox();
+            this.bannerCheckBox = new System.Windows.Forms.CheckBox();
+            this.ctaFirstBtnText = new System.Windows.Forms.TextBox();
+            this.ctaScndBtnText = new System.Windows.Forms.TextBox();
+            this.ctaThrdBtnText = new System.Windows.Forms.TextBox();
+            this.bannerAddPicture = new System.Windows.Forms.Button();
+            this.dropDownTxtPos = new System.Windows.Forms.ComboBox();
+            this.scrllBannerLabel = new System.Windows.Forms.Label();
+            this.ctaBtnsLabel = new System.Windows.Forms.Label();
+            this.txtWithImagePos = new System.Windows.Forms.Label();
+            this.imgText = new System.Windows.Forms.TextBox();
+            this.pictureBoxMiddle = new System.Windows.Forms.PictureBox();
+            this.browsePicLeftOrRight = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMiddle)).BeginInit();
             this.SuspendLayout();
             // 
             // sectionNameInputBox
             // 
             this.sectionNameInputBox.Location = new System.Drawing.Point(234, 36);
             this.sectionNameInputBox.Name = "sectionNameInputBox";
-            this.sectionNameInputBox.Size = new System.Drawing.Size(150, 31);
+            this.sectionNameInputBox.Size = new System.Drawing.Size(150, 23);
             this.sectionNameInputBox.TabIndex = 0;
             this.sectionNameInputBox.TextChanged += new System.EventHandler(this.sectionNameBox_TextChanged);
             // 
@@ -58,7 +77,7 @@ namespace AutoGeneratingPage
             this.sectionNameLabel.AutoSize = true;
             this.sectionNameLabel.Location = new System.Drawing.Point(235, 8);
             this.sectionNameLabel.Name = "sectionNameLabel";
-            this.sectionNameLabel.Size = new System.Drawing.Size(122, 25);
+            this.sectionNameLabel.Size = new System.Drawing.Size(81, 15);
             this.sectionNameLabel.TabIndex = 1;
             this.sectionNameLabel.Text = "Section Name";
             // 
@@ -67,7 +86,7 @@ namespace AutoGeneratingPage
             this.sectionTitleLable.AutoSize = true;
             this.sectionTitleLable.Location = new System.Drawing.Point(26, 9);
             this.sectionTitleLable.Name = "sectionTitleLable";
-            this.sectionTitleLable.Size = new System.Drawing.Size(107, 25);
+            this.sectionTitleLable.Size = new System.Drawing.Size(71, 15);
             this.sectionTitleLable.TabIndex = 3;
             this.sectionTitleLable.Text = "Section Title";
             this.sectionTitleLable.Click += new System.EventHandler(this.label2_Click);
@@ -76,7 +95,7 @@ namespace AutoGeneratingPage
             // 
             this.sectionTitleInputBox.Location = new System.Drawing.Point(26, 36);
             this.sectionTitleInputBox.Name = "sectionTitleInputBox";
-            this.sectionTitleInputBox.Size = new System.Drawing.Size(150, 31);
+            this.sectionTitleInputBox.Size = new System.Drawing.Size(150, 23);
             this.sectionTitleInputBox.TabIndex = 2;
             // 
             // backgroundColorButton
@@ -94,7 +113,7 @@ namespace AutoGeneratingPage
             this.backgroundColorLabel.AutoSize = true;
             this.backgroundColorLabel.Location = new System.Drawing.Point(23, 101);
             this.backgroundColorLabel.Name = "backgroundColorLabel";
-            this.backgroundColorLabel.Size = new System.Drawing.Size(155, 25);
+            this.backgroundColorLabel.Size = new System.Drawing.Size(103, 15);
             this.backgroundColorLabel.TabIndex = 6;
             this.backgroundColorLabel.Text = "Background Color";
             this.backgroundColorLabel.Click += new System.EventHandler(this.backgroundColorLabel_Click);
@@ -104,7 +123,7 @@ namespace AutoGeneratingPage
             this.imageLabel.AutoSize = true;
             this.imageLabel.Location = new System.Drawing.Point(236, 101);
             this.imageLabel.Name = "imageLabel";
-            this.imageLabel.Size = new System.Drawing.Size(62, 25);
+            this.imageLabel.Size = new System.Drawing.Size(40, 15);
             this.imageLabel.TabIndex = 8;
             this.imageLabel.Text = "Image";
             this.imageLabel.Click += new System.EventHandler(this.imageLabel_Click);
@@ -125,7 +144,7 @@ namespace AutoGeneratingPage
             this.fontStyleLabel.AutoSize = true;
             this.fontStyleLabel.Location = new System.Drawing.Point(417, 69);
             this.fontStyleLabel.Name = "fontStyleLabel";
-            this.fontStyleLabel.Size = new System.Drawing.Size(90, 25);
+            this.fontStyleLabel.Size = new System.Drawing.Size(59, 15);
             this.fontStyleLabel.TabIndex = 9;
             this.fontStyleLabel.Text = "Font Style";
             this.fontStyleLabel.Click += new System.EventHandler(this.fontStyleLabel_Click);
@@ -135,7 +154,7 @@ namespace AutoGeneratingPage
             this.fontStyleMenu.FormattingEnabled = true;
             this.fontStyleMenu.Location = new System.Drawing.Point(417, 97);
             this.fontStyleMenu.Name = "fontStyleMenu";
-            this.fontStyleMenu.Size = new System.Drawing.Size(182, 33);
+            this.fontStyleMenu.Size = new System.Drawing.Size(182, 23);
             this.fontStyleMenu.TabIndex = 10;
             // 
             // label1
@@ -143,7 +162,7 @@ namespace AutoGeneratingPage
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(605, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 25);
+            this.label1.Size = new System.Drawing.Size(54, 15);
             this.label1.TabIndex = 12;
             this.label1.Text = "Font Size";
             // 
@@ -151,7 +170,7 @@ namespace AutoGeneratingPage
             // 
             this.fontSizeInputBox.Location = new System.Drawing.Point(605, 98);
             this.fontSizeInputBox.Name = "fontSizeInputBox";
-            this.fontSizeInputBox.Size = new System.Drawing.Size(100, 31);
+            this.fontSizeInputBox.Size = new System.Drawing.Size(100, 23);
             this.fontSizeInputBox.TabIndex = 11;
             // 
             // fontColorLabel
@@ -159,7 +178,7 @@ namespace AutoGeneratingPage
             this.fontColorLabel.AutoSize = true;
             this.fontColorLabel.Location = new System.Drawing.Point(724, 101);
             this.fontColorLabel.Name = "fontColorLabel";
-            this.fontColorLabel.Size = new System.Drawing.Size(96, 25);
+            this.fontColorLabel.Size = new System.Drawing.Size(63, 15);
             this.fontColorLabel.TabIndex = 14;
             this.fontColorLabel.Text = "Font Color";
             this.fontColorLabel.Click += new System.EventHandler(this.fontColorLabel_Click);
@@ -173,17 +192,6 @@ namespace AutoGeneratingPage
             this.fontColorPaletteButton.TabIndex = 13;
             this.fontColorPaletteButton.UseVisualStyleBackColor = false;
             this.fontColorPaletteButton.Click += new System.EventHandler(this.fontColorPaletteButton_Click);
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
-            this.btnWithLink = new System.Windows.Forms.Button();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.btnPrevious = new System.Windows.Forms.Button();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.btnPreview = new System.Windows.Forms.Button();
-            this.checkBoxBtnLink = new System.Windows.Forms.CheckBox();
-            this.SuspendLayout();
             // 
             // btnWithLink
             // 
@@ -237,28 +245,10 @@ namespace AutoGeneratingPage
             this.checkBoxBtnLink.AutoSize = true;
             this.checkBoxBtnLink.Location = new System.Drawing.Point(26, 337);
             this.checkBoxBtnLink.Name = "checkBoxBtnLink";
-            this.checkBoxBtnLink.Size = new System.Drawing.Size(141, 24);
+            this.checkBoxBtnLink.Size = new System.Drawing.Size(115, 19);
             this.checkBoxBtnLink.TabIndex = 5;
             this.checkBoxBtnLink.Text = "Button with link?";
             this.checkBoxBtnLink.UseVisualStyleBackColor = true;
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.bannerCheckBox = new System.Windows.Forms.CheckBox();
-            this.ctaFirstBtnText = new System.Windows.Forms.TextBox();
-            this.ctaScndBtnText = new System.Windows.Forms.TextBox();
-            this.ctaThrdBtnText = new System.Windows.Forms.TextBox();
-            this.bannerAddPicture = new System.Windows.Forms.Button();
-            this.dropDownTxtPos = new System.Windows.Forms.ComboBox();
-            this.scrllBannerLabel = new System.Windows.Forms.Label();
-            this.ctaBtnsLabel = new System.Windows.Forms.Label();
-            this.txtWithImagePos = new System.Windows.Forms.Label();
-            this.imgText = new System.Windows.Forms.TextBox();
-            this.pictureBoxMiddle = new System.Windows.Forms.PictureBox();
-            this.browsePicLeftOrRight = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMiddle)).BeginInit();
-            this.SuspendLayout();
             // 
             // bannerCheckBox
             // 
@@ -359,21 +349,22 @@ namespace AutoGeneratingPage
             this.pictureBoxMiddle.TabIndex = 13;
             this.pictureBoxMiddle.TabStop = false;
             // 
-            // button1
+            // browsePicLeftOrRight
             // 
             this.browsePicLeftOrRight.ForeColor = System.Drawing.Color.Blue;
             this.browsePicLeftOrRight.Location = new System.Drawing.Point(701, 287);
-            this.browsePicLeftOrRight.Name = "button1";
+            this.browsePicLeftOrRight.Name = "browsePicLeftOrRight";
             this.browsePicLeftOrRight.Size = new System.Drawing.Size(75, 23);
             this.browsePicLeftOrRight.TabIndex = 14;
             this.browsePicLeftOrRight.Text = "Browse";
             this.browsePicLeftOrRight.UseVisualStyleBackColor = true;
+            this.browsePicLeftOrRight.Click += new System.EventHandler(this.browsePicLeftOrRight_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(968, 450);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.fontColorLabel);
             this.Controls.Add(this.fontColorPaletteButton);
             this.Controls.Add(this.label1);
@@ -388,19 +379,12 @@ namespace AutoGeneratingPage
             this.Controls.Add(this.sectionTitleInputBox);
             this.Controls.Add(this.sectionNameLabel);
             this.Controls.Add(this.sectionNameInputBox);
-            this.Name = "Form1";
-            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.checkBoxBtnLink);
             this.Controls.Add(this.btnPreview);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnWithLink);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
             this.Controls.Add(this.browsePicLeftOrRight);
             this.Controls.Add(this.pictureBoxMiddle);
             this.Controls.Add(this.imgText);
@@ -417,9 +401,6 @@ namespace AutoGeneratingPage
             this.Text = "Page Generator";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMiddle)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
             this.ResumeLayout(false);
             this.PerformLayout();
 
