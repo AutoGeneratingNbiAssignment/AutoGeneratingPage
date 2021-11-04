@@ -1,6 +1,16 @@
 ﻿namespace AutoGeneratingPage
 {
-	public class WebPageSectionType
-	{
-	}
+    public enum WebPageSectionType
+    {
+        Main,
+        Footer,
+        NotDefined,
+        ScrollingBanner,
+        CallToAction,
+        Text,
+        TextWithImageRight,
+        TextWithImageLeft,
+        TextAndButton,
+        ContactForm
+    }
 }

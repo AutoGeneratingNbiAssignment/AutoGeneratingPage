@@ -8,7 +8,7 @@ namespace AutoGeneratingPage
 {
 	class WebPageSection
 	{
-        public WebPageSectionType SectionType { get; set; }
+        public WebPageSectionType WebPageSectionType { get; set; }
         public int ID { get; set; }
         public string Name { get; set; } 
         public string Title { get; set; } 
