@@ -17,19 +17,19 @@ namespace AutoGeneratingPage
             InitializeComponent();
         }
 
-        private void btnPreview_Click(object sender, EventArgs e)
+        private void BtnPreview_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btnPrevious_Click(object sender, EventArgs e)
+        private void BtnPrevious_Click(object sender, EventArgs e)
         {
-
+           
         }
 
-        private void btnNext_Click(object sender, EventArgs e)
+        private void BtnNext_Click(object sender, EventArgs e)
         {
-            Form1 newForm = new Form1();
+            Form1 newForm = new();
             newForm.Show();
         }
         private void Form1_Load(object sender, EventArgs e)
@@ -37,75 +37,100 @@ namespace AutoGeneratingPage
 
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void MenuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void ScrllBannerLabel_Click(object sender, EventArgs e)
         {
 
         }
-        private void sectionNameBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
+        private void SectionNameInputBox_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void backgroundColorButton_Click(object sender, EventArgs e)
+        private void SectionTitleLable_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BackgroundColorButton_Click(object sender, EventArgs e)
         {
             var backgroundColorPalette = new ColorDialog();
             backgroundColorPalette.ShowDialog();
         }
 
-        private void backgroundColorLabel_Click(object sender, EventArgs e)
+        private void BackgroundColorLabel_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void imageLabel_Click(object sender, EventArgs e)
+        private void ImageLabel_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void browseImageButton_Click(object sender, EventArgs e)
+        private void BrowseImageButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void fontStyleLabel_Click(object sender, EventArgs e)
+        private void FontStyleLabel_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void fontSizeLabel_Click(object sender, EventArgs e)
+        private void FontSizeLabel_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void fontSizeInputBox_Click(object sender, EventArgs e)
+        private void FontSizeInputBox_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void fontColorLabel_Click(object sender, EventArgs e)
+        private void FontColorLabel_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void fontColorPaletteButton_Click(object sender, EventArgs e)
+        private void FontColorPaletteButton_Click(object sender, EventArgs e)
         {
             var fontColorPalette = new ColorDialog();
             fontColorPalette.ShowDialog();
         }
 
-        private void browsePicLeftOrRight_Click(object sender, EventArgs e)
+        private void BrowsePicLeftOrRight_Click(object sender, EventArgs e)
         {
 
         }
-    }
+
+		private void BtnNext_Click_1(object sender, EventArgs e)
+		{
+
+		}
+
+		private void BannerAddPicture_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void BtnWithLink_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void SectionTitleInputBox_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void SectionNameLabel_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
